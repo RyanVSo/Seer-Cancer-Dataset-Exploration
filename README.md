@@ -14,6 +14,7 @@ As you can see, we achieved stellar results with a minimum accuracy of 73.54% (C
 We conducted hyperparameter tuning on the Random Forest and Gradient Boosting classifiers with Grid Search. For Random Forest, we tuned the following hyperparameters: n_estimators, criterion, max_depth, min_samples_split. For Gradient Boosting, we tuned the following hyperparameters: n_estimators, learning_rate, and max_depth. The ideal combinations achieved were as follows:
 Random Forest: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}
 Gradient Boosting: {'learning_rate': 0.1, 'max_depth': 1, 'n_estimators': 200}
+
 (d)    Conclusions
 We were certainly able to achieve our initial goal of developing a predictive model that can accurately classify patients into survivability outcomes based on a set of features derived from the SEER database. Each of our models performed relatively well with a minimum accuracy score of 73.54, maximum accuracy score of 90.43%, and four of the five algorithms having an accuracy higher than 87%. Not only did we successfully implement four high performing models, but we also successfully implemented hyperparameter tuning and visualization methods. Overall, we are proud of our results.
 
